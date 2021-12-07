@@ -46,7 +46,7 @@ button {
 button:hover {
   transform: translateY(5px);
   transition: .5s;
-  color: #94b3ec;
+  /* color: #e9ebf0; */
   -webkit-transform: translateY(5px);
   -moz-transform: translateY(5px);
   -ms-transform: translateY(5px);
