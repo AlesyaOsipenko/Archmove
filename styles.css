@@ -1,0 +1,71 @@
+/* @font-face {
+    font-family: 'NewYorkExtraLargeBold';
+    src: local('NewYorkExtraLargeBold'), url(./../assets/fonts/NewYorkExtraLargeBold.otf) format('otf');
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'SFUIDisplayBold';
+    src: local('SFUIDisplayBold'), url(./assets/fonts/SFUIDisplay-Bold.woff) format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFUIDisplayLight';
+    src: local('SFUIDisplayLight'), url(./assets/fonts/SFUIDisplay-Light.woff) format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFUIDisplayRegular';
+    src: local('SFUIDisplayRegular'), url(./assets/fonts/SFUIDisplay-Regular.woff) format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SFUIDisplaySemibold';
+    src: local('SFUIDisplaySemibold'), url(./assets/fonts/SFUIDisplay-Semibold.woff) format('woff');
+    font-display: swap;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 42px 50px 0 50px;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.header__nav {
+    margin-left: 60px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 48px;
+    font-family: 'SF UI Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    color: #585858;
+}
+
+
+
