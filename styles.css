@@ -49,12 +49,21 @@
 }
 
 .title {
-    font-family: 'New York Extra Large';
+    font-family: 'NewYorkExtraLargeBold';
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 60px;
     letter-spacing: -0.04em;
+}
+
+.list {
+    font-family: 'SF UI Display', sans-serif;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    display: flex;
+    gap: 48px;
 }
 
 .header {
@@ -79,14 +88,8 @@
 }
 
 .nav__list{
-    display: flex;
-    gap: 48px;
-    font-family: 'SF UI Display', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 40px;
-    letter-spacing: 0.01em;
+    font-weight: normal;
     color: #585858;
 }
 
@@ -280,6 +283,13 @@ padding-top: 64px;
     margin-bottom: 40px;
 }
 
+.replies__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
 .replies__text {
     max-width: 765px;
     font-family: 'SF UI Display',sans-serif;
@@ -290,4 +300,90 @@ padding-top: 64px;
     letter-spacing: 0.01em;
     color: #000000;
 }
+
+.replies__span {
+    font-family: 'SF UI Display', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+.replies__author {
+font-family: 'SF UI Display', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0.01em;
+color: #000000;
+}
+
+.replies__bottom {
+    padding: 64px 0 64px 0;
+    display: flex;
+    gap: 123px;
+}
+
+.replies__img {
+    background-blend-mode: multiply;
+}
+
+.replies__bottom-inner {
+    display: flex;
+    flex-direction: column;
+    padding-top: 255px;
+    max-width: 430px;
+}
+
+.replies__headline {
+line-height: 124%;
+margin-bottom: 64px;
+}
+
+.replies__headline--span {
+    color:#FD665E;
+}
+
+.replies__btn{
+    width: 204px;
+    height: 56px;
+    text-transform: uppercase;
+    background: #FD665E;
+    border-radius: 4px;
+}
+
+.partners {
+    padding: 64px 0 105px 0;
+}
+
+.partners__title{
+    margin-bottom: 56px;
+}
+
+.partners__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.footer {
+    padding: 80px 0 80px 0;
+    border-top: 1px solid #F0F0F0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav--list {
+    font-weight: 600;
+    color: rgba(88, 88, 88, 1);
+    font-size: 12px;
+}
+
+
+
 
