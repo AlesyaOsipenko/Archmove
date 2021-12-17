@@ -1,45 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/normalize.css">
-    
-    <!--style o Magnific Popup-->
-
-    <link rel="stylesheet" href="./assets/libs/magnific-popup.css">
-    <title>Archmove</title>
-</head>
-<body>
-    
-    <header class="header">
-        <div class="header__navigation">
-            <img class="header__logo" src="./assets/images/logoArch.svg"/>
-
-            <div class="header__wrapper">
-                <nav class="header__nav">
-                    <ul class="nav__list list">
-                        <a class="nav__list-item" href="/"><li>Design Gallery</li></a>
-                        <a class="nav__list-item" href="/"><li ></li>List of Architect</a>
-                        <a class="nav__list-item" href="/"><li></li>Articles</a>
-                        <a class="nav__list-item" href="/"><li></li>How it Works</a>
-                    </ul>
-                </nav>
-        
-                <div class="header__autorization">
-                    <button class="header__search"><img class="header__search" src="./assets/images/icSearh.svg" alt="search-icon"/></button>
-                    <button class="header__btn header__signIn">Sign In</button>
-                    <button class="header__btn btn header__signUp">Sign Up</button>
-                </div>
-
-            </div>
-
-            
-    
-        </div>
-    </header>
+<?php get_header(); ?>
 
     <!--section1-->
     <section class="main">
@@ -218,43 +177,4 @@
         </div>
     </section>
 
-    <!--footer-->
-
-    <footer class="footer">
-        <div class="container">
-
-            <div class="footer__wrapper">
-                <nav class="footer__nav">
-                    <ul class="footer__nav--list list">
-                        <a class="list__item" href="/"><li>About Us</li></a>
-                        <a class="list__item" href="/"><li ></li>How it Works</a>
-                        <a class="list__item" href="/"><li></li>FAQ</a>
-                        <a class="list__item" href="/"><li></li>Contact Us</a>
-                        <a class="listitem" href="/"><li></li>Privacy Policy</a>
-                    </ul>
-                </nav>
-        
-                <div>
-                    <img class="footer__logo" src="./assets/images/logoArch.svg"/>
-                </div>
-            
-            </div>
-
-
-
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-
-<!-- Magnific Popup core JS file -->
-<script src="./assets/libs/jquery.magnific-popup.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/script.js"></script>
-
-
-
-</body>
-</html>
+    <?php get_footer(); ?>

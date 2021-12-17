@@ -1,3 +1,8 @@
+/*
+Theme name: Arch-move
+*/
+
+
 @font-face {
     font-family: 'NewYorkExtraLargeBold';
     src: local('NewYorkExtraLargeBold'), url(./assets/fonts/NewYorkExtraLargeBold.otf) format('truetype');
@@ -51,6 +56,11 @@
 
 .btn:hover {
     opacity: 0.9;
+}
+
+a:hover {
+    transform: translateY(2px);
+    transition: .5s;
 }
 
 
