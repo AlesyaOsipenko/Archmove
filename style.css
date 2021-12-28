@@ -367,7 +367,6 @@ a:hover {
 
 .slick-track {
     display: flex;
-    /* align-items: center; */
     align-items: flex-start;
     /*для подстраивания под разную высоту контента*/
 }
